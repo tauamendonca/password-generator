@@ -3,7 +3,7 @@
   <p align="center">
     <img 
       alt="Bat Pass Generator Logo" 
-      src="https://raw.githubusercontent.com/felipeAguiarCode/react-native-bat-pass-generator/refs/heads/main/.github/assets/badge.png" 
+      src="https://raw.githubusercontent.com/tauamendonca/password-generator/refs/heads/main/github/badge.png" 
       width="200px" 
     />
     <h1>React Native - App gerador de senhas</h1>
@@ -33,7 +33,15 @@ Conheça o <a href = "https://github.com/felipeAguiarCode/react-native-bat-pass-
 
 ## 💻 Descrição Do Projeto
 
-Nesse projeto foi criado um app gerador de senhas, que cria as senhas a partir de um botão e também permite copiar essas para a área de transferência senhas ao toque de outro botão. O projeto inicial 
+Nesse projeto foi criado um app gerador de senhas, que cria as senhas a partir de um botão e também permite copiar essas para a área de transferência senhas ao toque de outro botão. O projeto inicial tinha como tema Batman e a logo acima pertence a ele, mas foi minha inspiração para a troca do layout do aplicativo. Abaixo listo algumas das mudanças que implementei nesse desafio.
+
+## Preview
+<center><img 
+      alt="App screen with 3 buttons and a password" 
+      src="https://raw.githubusercontent.com/tauamendonca/password-generator/refs/heads/main/github/preview.jpg" 
+      width="200px"
+/></center>
+
 
 ## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
 
