@@ -2,11 +2,11 @@
 <div align="center">
   <p align="center">
     <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
+      alt="Bat Pass Generator Logo" 
+      src="https://raw.githubusercontent.com/felipeAguiarCode/react-native-bat-pass-generator/refs/heads/main/.github/assets/badge.png" 
+      width="200px" 
     />
-    <h1>DIO - React Native - App gerador de senhas</h1>
+    <h1>React Native - App gerador de senhas</h1>
   </p>
 </div>
 <!--END_SECTION:header-->
@@ -23,7 +23,7 @@
       </tr>
        <tr>
     <td>
-Conheça o <a href = "https://github.com/digitalinnovationone/formacao-nodejs/tree/main/06-shopee-cart">projeto original</a>, o código que apresento aqui é uma resposta ao projeto proposto pela DIO no bootcamp MeuTudo Mobile Developer<br>
+Conheça o <a href = "https://github.com/felipeAguiarCode/react-native-bat-pass-generator">projeto original</a>, o código que apresento aqui é uma resposta ao projeto proposto pela DIO no bootcamp MeuTudo Mobile Developer<br>
  </td>
       </tr>
 </thead>
@@ -33,30 +33,38 @@ Conheça o <a href = "https://github.com/digitalinnovationone/formacao-nodejs/tr
 
 ## 💻 Descrição Do Projeto
 
-Nesse projeto criamos a lógica por trás de um carrinho de compras da shopee, aonde o carrinho armazena itens e faz o cálculo total e de subtotal automaticamente. Também foi pedido que criemos a lógica da wishlist e uma maneira de filtrar os itens por nome e valor, como propostas de desafio.
+Nesse projeto foi criado um app gerador de senhas, que cria as senhas a partir de um botão e também permite copiar essas para a área de transferência senhas ao toque de outro botão. O projeto inicial 
 
 ## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
 
 Para compreender esse projeto foram necessárias as seguintes habilidades:
 
   - Javascript | Intermediário
-  - Node | Básico
+  - ReactNative | Básico
   - Modularização | Básica
   - Lógica de Programação | Intermediário
 
 
 ## 🎯 Objetivos e Resultados Esperados
 
-O projeto e o curso ao qual ele pertence focam em aprofundar os conhecimentos sobre modularização e arquitetura, preparando o estudante para: 
+O projeto e o curso ao qual ele pertence focam em aprofundar conhecimentos sobre React Native como:
+- Utilização de packages
+- Estado e gerenciamento de estado
+- Modularização
+- Arquitetura
 
-- Modularizar projetos com maior propriedade
-- Organizar seu pensamento lógico e funcional
-- Construir uma base melhor organizar projetos
 
 ## 🏆 Desafios propostos realizados
 
 Foram realizadas as seguintes modificações no código: 
 
-- Feita a lógica para o funcionamento da wishlist
-- Feita lógica para filtrar itens por preço e por descrição, essa lógica foi separada em um módulo para poder ser utilizada tanto pela wishlist quanto pelo carrinho
-- Alterações menores realizadas para melhor retornar os resultados
+- Layout completamente novo e tema diferente (troquei a logo do projeto original pela badge que estava no readme do projeto, que era bem mais interessante estéticamente)
+- Adição de ícones com o package react-native-vector-icons/fontawesome6
+- Adição de um botão Settings que irá ser implementado em breve devido a restrição de tempo para terminar os outros projetos do bootcamp
+- Troquei os botões de pressable para touchable opacity (por feedback visual)
+- Adicionei um feedback visual para o botão copiar (e no momento para o botão setting enquanto este não está implementado)
+
+Ainda será implementado:
+- Configurações para personalizar a geração de senha
+- Gerar senha através da tabela ASCII
+- Salvar senha gerada
